@@ -12,6 +12,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="AbstractFactoryPattern" target="1.6" />
       <module name="DecoraterPattern" target="1.6" />
       <module name="DesignPattern" target="1.6" />
       <module name="FactoryDesignPattern" target="1.6" />

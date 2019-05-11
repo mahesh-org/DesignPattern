@@ -12,6 +12,7 @@
         <module>FactoryDesignPattern</module>
         <module>SingletonDesignPattern</module>
         <module>DecoraterPattern</module>
+        <module>DecoraterPattern</module>
     </modules>
 
     <properties>

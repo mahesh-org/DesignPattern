@@ -5,15 +5,15 @@
  *  volatile keyword in java guarantees that value of the volatile variable will always be read from main memory
  *  A volatile variable can be used as an alternative way of achieving synchronization in Java
  * */
-public class SingletonUsingvolatile {
+public class SingletonUsingVolatile {
 
-    private static volatile SingletonUsingvolatile _instance;     //volatile variable
+    private static volatile SingletonUsingVolatile _instance;     //volatile variable
 
-    public static SingletonUsingvolatile getInstance() {
+    public static SingletonUsingVolatile getInstance() {
         if (_instance == null) {
-            synchronized (SingletonUsingvolatile.class) {
+            synchronized (SingletonUsingVolatile.class) {
                 if (_instance == null) {
-                    _instance = new SingletonUsingvolatile();
+                    _instance = new SingletonUsingVolatile();
                 }
             }
         }
