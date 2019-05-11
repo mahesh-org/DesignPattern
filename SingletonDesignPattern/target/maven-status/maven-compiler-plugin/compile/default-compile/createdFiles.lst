@@ -1,0 +1,4 @@
+SingletonUsingvolatile.class
+SingletonEnum.class
+DoubleCheckedLockingSingleton.class
+SingletonUsingStatic.class
